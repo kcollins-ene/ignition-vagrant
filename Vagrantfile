@@ -30,7 +30,7 @@ mysql -u root --password=ignitionsql -e "CREATE USER 'ignition'@'localhost' IDEN
 # Download Ignition and install
 echo "Downloading Ignition 7.9.2"
 wget -q https://s3.amazonaws.com/files.inductiveautomation.com/release/ia/build7.9.2/20170413-1542/Ignition-7.9.2-linux-x64-installer.run >> install.log
-chmod a+x Ignition-7.9.3-linux-x64-installer.run
+chmod a+x Ignition-7.9.2-linux-x64-installer.run
 echo "Installing Ignition 7.9.2"
 sudo ./Ignition-7.9.2-linux-x64-installer.run --unattendedmodeui none --mode unattended --prefix /usr/local/share/ignition >> install.log
 echo "Starting Ignition"
